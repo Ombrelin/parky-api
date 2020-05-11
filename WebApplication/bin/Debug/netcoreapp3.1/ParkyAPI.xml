@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication.Controllers.NationalParksController.GetNationalParks">
+            <summary>
+            Gets a list of national Parks
+            </summary>
+            <returns>List of all the national parks</returns>
+        </member>
+        <member name="M:WebApplication.Controllers.NationalParksController.GetNationalPark(System.Guid)">
+            <summary>
+            Gets a National Park from its Id
+            </summary>
+            <param name="nationalParkId">Id of the National Park</param>
+            <returns>The corresponding National Park</returns>
+        </member>
+        <member name="M:WebApplication.Controllers.NationalParksController.CreateNationalPark(WebApplication.Models.DTOs.NationalParkDTO)">
+            <summary>
+            Creates a National Park
+            </summary>
+            <param name="dto">The National Park to create</param>
+            <returns>The created National Park</returns>
+        </member>
+        <member name="M:WebApplication.Controllers.NationalParksController.UpdateNationalPark(System.Guid,WebApplication.Models.DTOs.NationalParkDTO)">
+            <summary>
+            Updates a Nation Park
+            </summary>
+            <param name="nationalParkId">The Id of the National Park to update</param>
+            <param name="dto">New data of the National Park to update</param>
+        </member>
+        <member name="M:WebApplication.Controllers.NationalParksController.DeleteNationalPark(System.Guid)">
+            <summary>
+            Deletes a Nation Park
+            </summary>
+            <param name="nationalParkId">Id of the National Park to delete</param>
+        </member>
+    </members>
+</doc>
